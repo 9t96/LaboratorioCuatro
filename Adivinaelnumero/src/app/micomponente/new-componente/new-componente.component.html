@@ -1,0 +1,10 @@
+<p>
+  {{miVar}}
+</p>
+
+<div *ngFor="let juan of MisHeroes">
+  <p *ngIf="juan.villano == true; else abajo">{{juan.nombre}}</p>
+  <ng-template #abajo>
+    <h2>hola mundo</h2>
+  </ng-template>
+</div>

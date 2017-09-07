@@ -1,0 +1,11 @@
+<p>Ingrese un numero: </p>
+<input [(ngModel)]="userNumber" name="userNumber" type="number" placeholder="Ingrese numero">
+<div>
+   <h1>{{miNumero}}</h1>
+  <button class="btn btn-success btn-md"(click)="verificarNumero()">Verficar</button><br>
+  <button class="btn btn-danger btn-md"(click)="NuevoNumero()">Reiniciar</button>
+</div>
+
+<p>{{miResultado}}</p>
+
+

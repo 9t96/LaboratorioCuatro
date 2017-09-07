@@ -1,0 +1,12 @@
+ng new 
+
+ng g componente -La carapetanueva-  //Crea un nuevo componente.
+ng serve --open //Me genera un servidor.
+
+
+
+//Lo que modifique en el componente nuevo y lo referencie en el otro se cambia al instante.
+
+*ngFor="let juan of MisHeroes" // donde "juan" cumple el rol de value de un for each.
+
+*ngIf="condicion" // Condicion normal de un if.
